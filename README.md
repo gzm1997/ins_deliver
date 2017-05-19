@@ -210,7 +210,7 @@ download_content_by_url函数根据某条ins内容的url下载其中的图片和
 参数：
 
  - driver - webdriver的phontomjs浏览器对象
- - url - 要进行下载的页面的url
+ - url - 要进行下载的页面的url，例子[https://www.instagram.com/p/BULc74EAN7K/?taken-by=shaq][12]
  - folder_name - 进行存储数据的文件夹名字
 
 ```
@@ -235,12 +235,12 @@ download_contents_by_url函数根据其他某个ins用户的主页进行下载�
 
 此函数可进行下载的页面类似如下：
 
-![大鲨鱼的ins主页][12]
+![大鲨鱼的ins主页][13]
 
 参数：
 
  - driver - webdriver的phontomjs浏览器对象
- - url - 进行下载的页面的url，例子 - [https://www.instagram.com/shaq/][13]
+ - url - 进行下载的页面的url，例子 - [https://www.instagram.com/shaq/][14]
  - folder_name - 存储数据文件夹名字
  - num_pic - 下载图片数量
  - num_video - 下载视频数量
@@ -255,7 +255,7 @@ def download_contents_by_url(driver, url, folder_name, num_pic, num_video):
 ------
 
 ##完整代码:
-代码有点点多，不方便全部展示，详情请看[我的GitHub][14]（注：main是测试脚本，不过你也可以想我一样在命令行中进行运行测试）
+代码有点点多，不方便全部展示，详情请看[我的GitHub][15]（注：main是测试脚本，不过你也可以像我一样在命令行中进行运行测试）
 
 
 
@@ -273,6 +273,7 @@ def download_contents_by_url(driver, url, folder_name, num_pic, num_video):
   [9]: https://www.instagram.com/
   [10]: https://github.com/15331094/ins_deliver/blob/master/screenshots/login.png?raw=true
   [11]: https://github.com/15331094/ins_deliver/blob/master/screenshots/shaqinsdetail.png?raw=true
-  [12]: https://github.com/15331094/ins_deliver/blob/master/screenshots/shaqins.png?raw=true
-  [13]: https://www.instagram.com/shaq/
-  [14]: https://github.com/15331094/ins_deliver
+  [12]: https://www.instagram.com/p/BULc74EAN7K/?taken-by=shaq
+  [13]: https://github.com/15331094/ins_deliver/blob/master/screenshots/shaqins.png?raw=true
+  [14]: https://www.instagram.com/shaq/
+  [15]: https://github.com/15331094/ins_deliver
