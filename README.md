@@ -61,10 +61,10 @@ img_form = ".png"
 video_form = ".mp4"
 ```
 
- - **PhantomJS_executable_path** - 用来存放参数,PhantomJS_executable_path是phantomjs浏览器运行文件的所在目录
- - **service_args** - 代表你的vpn在机器上运行的端口，本人使用的green vpn是运行在1080端口，shadowsocks和tor等其他代理同理设置这个参数，就是要根据端口设置
- - **login_url** - 是Instagram登陆页面
- - **img_form**和**video_form** - 分别是图片和视频的默认保存格式
+ - **PhantomJS_executable_path** - phantomjs浏览器运行文件的所在目录
+ - **service_args** - 你的vpn在机器上运行的端口，本人使用的green vpn是运行在1080端口，shadowsocks和tor等其他代理同理设置，就是要根据端口设置而已
+ - **login_url** - Instagram登陆页面
+ - **img_form**， **video_form** - 图片和视频的默认保存格式
 
 ###user模块
 ```
@@ -85,10 +85,10 @@ class User(object):
 		return self._video_num
 ```
 
- - **_account** - 存放Instagram账号
- - **_password** - 存放密码
- - **_pic_num** - 是要下载个人ins主页上多少图片（按照ins的顺序非时间先后）
- - **_video_num** - 是要下载个人ins主页上多少视频（按照ins的顺序非时间先后）
+ - **_account** - Instagram账号
+ - **_password** - 密码
+ - **_pic_num** - 要下载个人ins主页上多少图片（按照ins的顺序非时间先后）
+ - **_video_num** - 要下载个人ins主页上多少视频（按照ins的顺序非时间先后）
 
 ###login模块
 login模块负责Instagram账号登陆，并且获取你ins主页上关注用户发表的ins内容，只有一个login函数，返回值是一个**webdriver的PhantomJS浏览器对象**,还有**需要下载的图片和视频的BeautifulSoup对象列表**：
