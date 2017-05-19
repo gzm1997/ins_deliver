@@ -255,7 +255,7 @@ def download_contents_by_url(driver, url, folder_name, num_pic, num_video):
 ------
 
 ##完整代码:
-代码有点点多，不方便全部展示，详情请看[我的GitHub][14]（注：main是测试脚本，你也可以想我一样在命令行中进行运行测试）
+代码有点点多，不方便全部展示，详情请看[我的GitHub][14]（注：main是测试脚本，不过你也可以想我一样在命令行中进行运行测试）
 
 
 
