@@ -68,7 +68,7 @@ video_form = ".mp4"
 ```
 
  - **PhantomJS_executable_path** - phantomjs浏览器运行文件的所在目录
- - **service_args** - 你的vpn在机器上运行的端口，本人使用的green vpn是运行在1080端口，shadowsocks和tor等其他代理同理设置，就是要根据端口设置而已
+ - **service_args** - 你的vpn在机器上运行的ip和端口以及一些代理参数，本人使用的green vpn是运行在1080端口，shadowsocks和tor等其他代理同理设置，就是要根据端口设置而已
  - **login_url** - Instagram登陆页面
  - **img_form**， **video_form** - 图片和视频的默认保存格式
 
